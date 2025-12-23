@@ -109,8 +109,8 @@
                     </li>
                     <li>
                         <span>✉️</span>
-                        <a href="mailto:<?php echo esc_attr(get_theme_mod('tattva_email', 'info@tattvadentalclinic.com')); ?>">
-                            <?php echo esc_html(get_theme_mod('tattva_email', 'info@tattvadentalclinic.com')); ?>
+                        <a href="mailto:<?php echo esc_attr(get_theme_mod('tattva_email', 'tattvadental.tdc@gmail.com')); ?>">
+                            <?php echo esc_html(get_theme_mod('tattva_email', 'tattvadental.tdc@gmail.com')); ?>
                         </a>
                     </li>
                 </ul>

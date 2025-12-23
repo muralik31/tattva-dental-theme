@@ -18,9 +18,9 @@
                     <span>📞</span>
                     <span><?php echo esc_html(get_theme_mod('tattva_phone', '08309164387')); ?></span>
                 </a>
-                <a href="mailto:<?php echo esc_attr(get_theme_mod('tattva_email', 'info@tattvadentalclinic.com')); ?>" class="top-bar-item" style="display:inline-flex; align-items:center; gap:0.5rem; color:#8B949E; font-size:0.9rem; text-decoration:none;">
+                <a href="mailto:<?php echo esc_attr(get_theme_mod('tattva_email', 'tattvadental.tdc@gmail.com')); ?>" class="top-bar-item" style="display:inline-flex; align-items:center; gap:0.5rem; color:#8B949E; font-size:0.9rem; text-decoration:none;">
                     <span>📧</span>
-                    <span><?php echo esc_html(get_theme_mod('tattva_email', 'info@tattvadentalclinic.com')); ?></span>
+                    <span><?php echo esc_html(get_theme_mod('tattva_email', 'tattvadental.tdc@gmail.com')); ?></span>
                 </a>
             </div>
         </div>
@@ -148,6 +148,7 @@ function tattva_dental_fallback_menu() {
     
     echo '<ul style="display:flex !important; align-items:center; gap:2rem; list-style:none; margin:0; padding:0;">';
     echo '<li><a href="' . $home . '" style="color:#fff; text-decoration:none; font-weight:500; font-size:0.9rem; text-transform:uppercase;">Home</a></li>';
+    echo '<li><a href="' . ($is_front ? '#about' : $home . '#about') . '" style="color:#fff; text-decoration:none; font-weight:500; font-size:0.9rem; text-transform:uppercase;">About</a></li>';
     echo '<li><a href="' . ($is_front ? '#services' : $home . '#services') . '" style="color:#fff; text-decoration:none; font-weight:500; font-size:0.9rem; text-transform:uppercase;">Services</a></li>';
     echo '<li><a href="' . ($is_front ? '#gallery' : $home . '#gallery') . '" style="color:#fff; text-decoration:none; font-weight:500; font-size:0.9rem; text-transform:uppercase;">Gallery</a></li>';
     echo '<li><a href="' . ($is_front ? '#testimonials' : $home . '#testimonials') . '" style="color:#fff; text-decoration:none; font-weight:500; font-size:0.9rem; text-transform:uppercase;">Testimonials</a></li>';

@@ -359,7 +359,7 @@ function tattva_dental_customize_register($wp_customize) {
     
     // Email
     $wp_customize->add_setting('tattva_email', array(
-        'default'           => 'info@tattvadentalclinic.com',
+        'default'           => 'tattvadental.tdc@gmail.com',
         'sanitize_callback' => 'sanitize_email',
     ));
     $wp_customize->add_control('tattva_email', array(

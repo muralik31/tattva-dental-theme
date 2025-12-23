@@ -411,7 +411,7 @@ get_header();
                     <div class="contact-info-icon">✉️</div>
                     <div>
                         <h4>Email Us</h4>
-                        <p><a href="mailto:<?php echo esc_attr(get_theme_mod('tattva_email', 'info@tattvadentalclinic.com')); ?>"><?php echo esc_html(get_theme_mod('tattva_email', 'info@tattvadentalclinic.com')); ?></a></p>
+                        <p><a href="mailto:<?php echo esc_attr(get_theme_mod('tattva_email', 'tattvadental.tdc@gmail.com')); ?>"><?php echo esc_html(get_theme_mod('tattva_email', 'tattvadental.tdc@gmail.com')); ?></a></p>
                     </div>
                 </div>
                 

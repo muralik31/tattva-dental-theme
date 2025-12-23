@@ -133,13 +133,6 @@ get_header();
             endif;
             ?>
         </div>
-        
-        <!-- CTA -->
-        <div class="testimonial-cta" style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--color-surface-light); border-radius: var(--radius-md);">
-            <h3 style="color: var(--color-white); margin-bottom: 0.5rem;">Ready to Experience the Tattva Difference?</h3>
-            <p style="color: var(--color-gray); margin-bottom: 1.5rem;">Join our family of happy patients today!</p>
-            <a href="<?php echo esc_url(home_url('/#contact')); ?>" class="btn btn-primary">Book Your Appointment</a>
-        </div>
     </div>
 </section>
 

@@ -84,36 +84,22 @@ get_header();
 <section class="section">
     <div class="container">
         <div class="text-center">
-            <span class="section-subtitle">The Experts</span>
-            <h2 class="section-title">Meet Our Team</h2>
+            <span class="section-subtitle">The Expert</span>
+            <h2 class="section-title">Meet Our Doctor</h2>
         </div>
         
-        <div class="services-grid" style="margin-top: 2rem;">
+        <div style="max-width: 400px; margin: 2rem auto 0;">
             <div class="service-card" style="text-align: center; padding-top: 0; overflow: hidden;">
-                <div style="margin: 0 -2rem 1.5rem; height: 250px; overflow: hidden;">
-                    <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=300&fit=crop" alt="Dr. Priya Sharma" style="width: 100%; height: 100%; object-fit: cover;" />
+                <div style="margin: 0 -2rem 1.5rem; height: 300px; overflow: hidden; background: linear-gradient(135deg, var(--color-surface-lighter), var(--color-surface)); display: flex; align-items: center; justify-content: center;">
+                    <!-- Placeholder for photo - Replace src with actual photo URL -->
+                    <div style="text-align: center; color: var(--color-gray);">
+                        <div style="font-size: 4rem; margin-bottom: 0.5rem;">👩‍⚕️</div>
+                        <p style="font-size: 0.85rem; margin: 0;">Photo Coming Soon</p>
+                    </div>
                 </div>
-                <h3 style="margin-bottom: 0.25rem;">Dr. Priya Sharma</h3>
+                <h3 style="margin-bottom: 0.25rem;">Dr. Niharika Harsha</h3>
                 <p style="color: var(--color-primary); font-weight: 600; margin-bottom: 0.5rem;">Founder & Lead Dentist</p>
-                <p style="font-size: 0.9rem;">DDS, MS in Prosthodontics. 20+ years of experience in cosmetic and restorative dentistry.</p>
-            </div>
-            
-            <div class="service-card" style="text-align: center; padding-top: 0; overflow: hidden;">
-                <div style="margin: 0 -2rem 1.5rem; height: 250px; overflow: hidden;">
-                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=300&fit=crop" alt="Dr. Raj Patel" style="width: 100%; height: 100%; object-fit: cover;" />
-                </div>
-                <h3 style="margin-bottom: 0.25rem;">Dr. Raj Patel</h3>
-                <p style="color: var(--color-primary); font-weight: 600; margin-bottom: 0.5rem;">Orthodontist</p>
-                <p style="font-size: 0.9rem;">Board-certified orthodontist specializing in Invisalign and traditional braces for all ages.</p>
-            </div>
-            
-            <div class="service-card" style="text-align: center; padding-top: 0; overflow: hidden;">
-                <div style="margin: 0 -2rem 1.5rem; height: 250px; overflow: hidden;">
-                    <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&h=300&fit=crop" alt="Dr. Maya Chen" style="width: 100%; height: 100%; object-fit: cover;" />
-                </div>
-                <h3 style="margin-bottom: 0.25rem;">Dr. Maya Chen</h3>
-                <p style="color: var(--color-primary); font-weight: 600; margin-bottom: 0.5rem;">Pediatric Dentist</p>
-                <p style="font-size: 0.9rem;">Specialist in children's dentistry, making dental visits fun and stress-free for young patients.</p>
+                <p style="font-size: 0.9rem;">Dedicated to providing exceptional dental care with a gentle, patient-first approach. Committed to creating healthy, beautiful smiles.</p>
             </div>
         </div>
     </div>

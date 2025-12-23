@@ -218,7 +218,7 @@ get_header();
                         'rating' => 5
                     ),
                     array(
-                        'quote' => 'Professional, friendly, and thorough. Dr. Patel explained everything clearly and the results exceeded my expectations. Highly recommend for anyone looking for quality dental care.',
+                        'quote' => 'Professional, friendly, and thorough. Dr. Niharika explained everything clearly and the results exceeded my expectations. Highly recommend for anyone looking for quality dental care.',
                         'name' => 'Michael Chen',
                         'title' => 'Software Engineer',
                         'rating' => 5

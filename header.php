@@ -42,7 +42,7 @@
                     </div>
                     <div class="site-identity" style="display:flex; flex-direction:column; gap:0.1rem;">
                         <span class="site-name" style="font-size:1.5rem; font-weight:700; color:#fff; line-height:1.2; white-space:nowrap;">Tattva Dental Clinic</span>
-                        <span class="site-tagline" style="font-size:0.8rem; color:#40E0D0; white-space:nowrap;">Your Smile, Our Priority</span>
+                        <span class="site-tagline" style="font-size:0.8rem; color:#40E0D0; white-space:nowrap;">Your Smile, Our Passion</span>
                     </div>
                 </a>
                 

@@ -62,7 +62,7 @@ get_header();
             <div class="service-card" style="text-align: center;">
                 <div class="service-icon" style="margin: 0 auto 1rem;">💝</div>
                 <h3>Patient First</h3>
-                <p>Every decision we make puts our patients' comfort, safety, and well-being at the center. Your smile is our priority.</p>
+                <p>Every decision we make puts our patients' comfort, safety, and well-being at the center. Your smile is our passion.</p>
             </div>
             
             <div class="service-card" style="text-align: center;">

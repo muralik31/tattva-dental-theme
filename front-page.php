@@ -110,52 +110,54 @@ get_header();
     </div>
 </section>
 
-<!-- Why Choose Us Section -->
+<!-- About Us & Meet the Doctor Section -->
 <section class="section" id="about">
     <div class="container">
+        <div class="text-center" style="margin-bottom: 3rem;">
+            <span class="section-subtitle">About Us</span>
+            <h2 class="section-title">Meet Your Dentist</h2>
+        </div>
+        
         <div class="about-grid">
-            <div class="about-image">
-                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&h=500&fit=crop" alt="Dentist with patient" />
+            <!-- Doctor Photo -->
+            <div class="about-image" style="display: flex; justify-content: center;">
+                <div style="background: linear-gradient(135deg, var(--color-surface-lighter), var(--color-surface)); border-radius: var(--radius-lg); padding: 2rem; text-align: center; max-width: 350px; width: 100%;">
+                    <!-- Placeholder for Dr. Niharika's photo -->
+                    <div style="width: 200px; height: 200px; margin: 0 auto 1.5rem; border-radius: 50%; background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark)); display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 32px rgba(64, 224, 208, 0.3);">
+                        <span style="font-size: 5rem;">👩‍⚕️</span>
+                    </div>
+                    <h3 style="color: var(--color-white); margin-bottom: 0.25rem;">Dr. Niharika Harsha</h3>
+                    <p style="color: var(--color-primary); font-weight: 600; margin-bottom: 1rem;">Founder & Lead Dentist</p>
+                    <p style="color: var(--color-gray); font-size: 0.9rem;">Dedicated to providing exceptional dental care with a gentle, patient-first approach.</p>
+                </div>
             </div>
             
+            <!-- About Content -->
             <div class="about-content">
-                <span class="section-subtitle">Why Choose Us</span>
-                <h2 class="section-title">Excellence in Dental Care</h2>
-                <p>At Tattva Dental Clinic, we believe everyone deserves a healthy, beautiful smile. Our team of experienced professionals is committed to providing personalized care in a comfortable, modern environment.</p>
+                <h3 style="color: var(--color-white); margin-bottom: 1rem;">Welcome to Tattva Dental Clinic</h3>
+                <p>At Tattva Dental Clinic, we believe everyone deserves a healthy, beautiful smile. Led by Dr. Niharika Harsha, our clinic combines advanced technology with compassionate care to deliver exceptional results.</p>
+                <p>Our name "Tattva" means "essence" in Sanskrit, reflecting our commitment to providing honest, essential dental care that transforms smiles and lives.</p>
                 
-                <div class="feature-list">
-                    <div class="feature-item">
-                        <div class="feature-icon">👨‍⚕️</div>
-                        <div>
-                            <h4>Expert Team</h4>
-                            <p>Highly trained dentists with years of experience in various specialties.</p>
-                        </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0;">
+                    <div style="display: flex; align-items: center; gap: 0.75rem;">
+                        <span style="font-size: 1.5rem;">✓</span>
+                        <span style="color: var(--color-text);">Advanced Technology</span>
                     </div>
-                    
-                    <div class="feature-item">
-                        <div class="feature-icon">🏆</div>
-                        <div>
-                            <h4>Advanced Technology</h4>
-                            <p>State-of-the-art equipment for precise diagnosis and treatment.</p>
-                        </div>
+                    <div style="display: flex; align-items: center; gap: 0.75rem;">
+                        <span style="font-size: 1.5rem;">✓</span>
+                        <span style="color: var(--color-text);">Gentle Care</span>
                     </div>
-                    
-                    <div class="feature-item">
-                        <div class="feature-icon">💝</div>
-                        <div>
-                            <h4>Patient Comfort</h4>
-                            <p>Gentle care in a relaxing environment designed for your comfort.</p>
-                        </div>
+                    <div style="display: flex; align-items: center; gap: 0.75rem;">
+                        <span style="font-size: 1.5rem;">✓</span>
+                        <span style="color: var(--color-text);">Patient Comfort</span>
                     </div>
-                    
-                    <div class="feature-item">
-                        <div class="feature-icon">🕐</div>
-                        <div>
-                            <h4>Flexible Scheduling</h4>
-                            <p>Convenient appointment times to fit your busy lifestyle.</p>
-                        </div>
+                    <div style="display: flex; align-items: center; gap: 0.75rem;">
+                        <span style="font-size: 1.5rem;">✓</span>
+                        <span style="color: var(--color-text);">Flexible Hours</span>
                     </div>
                 </div>
+                
+                <a href="<?php echo esc_url(home_url('/about')); ?>" class="btn btn-outline" style="margin-top: 1rem;">Learn More About Us →</a>
             </div>
         </div>
     </div>

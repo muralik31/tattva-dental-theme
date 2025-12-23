@@ -423,14 +423,6 @@ get_header();
                     </div>
                 </div>
                 
-                <div class="contact-info-item">
-                    <div class="contact-info-icon">📍</div>
-                    <div>
-                        <h4>Location</h4>
-                        <p><?php echo nl2br(esc_html(get_theme_mod('tattva_address', "Mansoorabad Rd, Anitha Nagar,\nAuto Nagar, Hyderabad,\nTelangana 500068"))); ?></p>
-                    </div>
-                </div>
-                
                 <!-- Map -->
                 <div class="map-container">
                     <?php 

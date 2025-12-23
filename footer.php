@@ -56,10 +56,11 @@
                 <h4>Quick Links</h4>
                 <ul>
                     <li><a href="<?php echo esc_url(home_url('/')); ?>">Home</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/services')); ?>">Services</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/gallery')); ?>">Gallery</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/about')); ?>">About Us</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/contact')); ?>">Contact</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/#about')); ?>">About Us</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/#services')); ?>">Services</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/#gallery')); ?>">Gallery</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/#testimonials')); ?>">Testimonials</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/#contact')); ?>">Contact</a></li>
                 </ul>
             </div>
             

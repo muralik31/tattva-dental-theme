@@ -121,9 +121,9 @@
         <div class="footer-bottom">
             <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved.</p>
             <p>
-                <a href="<?php echo esc_url(home_url('/privacy-policy#terms')); ?>">Terms & Conditions</a> | 
-                <a href="<?php echo esc_url(home_url('/privacy-policy#privacy')); ?>">Privacy Policy</a> | 
-                <a href="<?php echo esc_url(home_url('/privacy-policy#refund')); ?>">Refund Policy</a>
+                <a href="<?php echo esc_url(home_url('/policies#terms')); ?>">Terms & Conditions</a> | 
+                <a href="<?php echo esc_url(home_url('/policies#privacy')); ?>">Privacy Policy</a> | 
+                <a href="<?php echo esc_url(home_url('/policies#refund')); ?>">Refund Policy</a>
             </p>
         </div>
     </div>

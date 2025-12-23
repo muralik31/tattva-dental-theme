@@ -253,6 +253,10 @@ get_header();
             endif;
             ?>
         </div>
+        
+        <div class="text-center" style="margin-top: 2rem;">
+            <a href="<?php echo esc_url(home_url('/testimonials')); ?>" class="btn btn-outline">View All Reviews →</a>
+        </div>
     </div>
 </section>
 
